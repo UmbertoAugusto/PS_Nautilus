@@ -1,0 +1,9 @@
+planetas:
+  mercurio:
+    raio: 1
+  venus:
+    raio: 1.8
+  terra:
+    raio: 3
+  marte:
+    raio: 4.5

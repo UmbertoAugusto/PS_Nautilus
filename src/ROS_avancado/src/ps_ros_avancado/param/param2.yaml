@@ -1,0 +1,9 @@
+satelites:
+  terra:
+    lua:
+      raio: 0.3
+  marte:
+    phobos:
+      raio: 0.2
+    deimos:
+      raio: 0.6

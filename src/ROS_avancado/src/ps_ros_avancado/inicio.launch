@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+    <rosparam file="$(find ps_ros_avancado)/param/param1.yaml" command="load" />
+    <rosparam file="$(find ps_ros_avancado)/param/param2.yaml" command="load" />
+    <node pkg="ps_ros_avancado" type="broadcaster.py" name="tf_broadcaster"/>
+
+</launch>
